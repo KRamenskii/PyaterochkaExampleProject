@@ -12,6 +12,7 @@
 		1D8FAF3927199E720081994F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FAF3827199E720081994F /* ViewController.swift */; };
 		1D8FAF3E27199E740081994F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8FAF3D27199E740081994F /* Assets.xcassets */; };
 		1D8FAF4127199E740081994F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8FAF3F27199E740081994F /* LaunchScreen.storyboard */; };
+		1D8FAF502719A6480081994F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FAF4F2719A6480081994F /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1D8FAF3D27199E740081994F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D8FAF4027199E740081994F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D8FAF4227199E740081994F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8FAF4F2719A6480081994F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +109,18 @@
 		1D8FAF4D2719A0450081994F /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				1D8FAF4E2719A61B0081994F /* MainController */,
 				1D8FAF3827199E720081994F /* ViewController.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1D8FAF4E2719A61B0081994F /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FAF4F2719A6480081994F /* MainTabBarController.swift */,
+			);
+			path = MainController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 			files = (
 				1D8FAF3927199E720081994F /* ViewController.swift in Sources */,
 				1D8FAF3527199E720081994F /* AppDelegate.swift in Sources */,
+				1D8FAF502719A6480081994F /* MainTabBarController.swift in Sources */,
 				1D8FAF3727199E720081994F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
