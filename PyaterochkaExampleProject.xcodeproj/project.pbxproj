@@ -56,15 +56,63 @@
 		1D8FAF3327199E720081994F /* PyaterochkaExampleProject */ = {
 			isa = PBXGroup;
 			children = (
-				1D8FAF3427199E720081994F /* AppDelegate.swift */,
-				1D8FAF3627199E720081994F /* SceneDelegate.swift */,
-				1D8FAF3827199E720081994F /* ViewController.swift */,
-				1D8FAF3A27199E720081994F /* Main.storyboard */,
-				1D8FAF3D27199E740081994F /* Assets.xcassets */,
-				1D8FAF3F27199E740081994F /* LaunchScreen.storyboard */,
-				1D8FAF4227199E740081994F /* Info.plist */,
+				1D8FAF4827199F990081994F /* Resources */,
+				1D8FAF4927199FA90081994F /* Source */,
 			);
 			path = PyaterochkaExampleProject;
+			sourceTree = "<group>";
+		};
+		1D8FAF4827199F990081994F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FAF4B2719A0280081994F /* Configs */,
+				1D8FAF4A27199FFB0081994F /* Storyboards */,
+				1D8FAF3D27199E740081994F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1D8FAF4927199FA90081994F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FAF4C2719A03F0081994F /* App */,
+				1D8FAF4D2719A0450081994F /* Scenes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1D8FAF4A27199FFB0081994F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FAF3A27199E720081994F /* Main.storyboard */,
+				1D8FAF3F27199E740081994F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1D8FAF4B2719A0280081994F /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FAF4227199E740081994F /* Info.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		1D8FAF4C2719A03F0081994F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FAF3427199E720081994F /* AppDelegate.swift */,
+				1D8FAF3627199E720081994F /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1D8FAF4D2719A0450081994F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FAF3827199E720081994F /* ViewController.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +339,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8V72KCX9X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PyaterochkaExampleProject/Info.plist;
+				INFOPLIST_FILE = PyaterochkaExampleProject/Resources/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +367,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V8V72KCX9X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PyaterochkaExampleProject/Info.plist;
+				INFOPLIST_FILE = PyaterochkaExampleProject/Resources/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
